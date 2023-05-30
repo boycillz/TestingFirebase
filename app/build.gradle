@@ -3,6 +3,7 @@ plugins {
     id 'com.google.gms.google-services'
     id 'com.google.firebase.crashlytics'
     id 'com.google.firebase.firebase-perf'
+    id 'com.google.firebase.appdistribution'
 }
 
 android {
@@ -51,6 +52,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-crashlytics-ktx:18.3.2'
     implementation 'com.google.firebase:firebase-perf:20.3.0'
     implementation 'com.google.firebase:firebase-perf-ktx:20.3.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.0'
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.1.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
